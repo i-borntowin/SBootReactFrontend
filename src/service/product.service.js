@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://Localhost:8080";
+const API_URL = "https://thernrtechnologies.com/Product_Management_Backend/";
 class productService {
   saveProduct(product) {
     return axios.post(API_URL + "/saveProduct", product);
