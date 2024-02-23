@@ -6,6 +6,8 @@ class productService {
     return axios.post(API_URL + "/saveProduct", product);
   }
 
+//arvindra
+
   getAllProducts() {
     return axios.get(API_URL + "/");
   }
